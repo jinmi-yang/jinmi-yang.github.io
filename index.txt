@@ -1,4 +1,17 @@
-vCard - Personal Portfolio
+Personal Portfolio
+
+
+TO DO LIST
+개발자 영역 체크
+링크드인 링크 걸기
+어바웃 미 한국어로 쓰고 영어로도 쓰기
+what i'm doing : 데이터 분석 / 데이터 사이언스 (ai,nlp 등) / it기획 + 웹 디자인 / 데이터 엔지니어링
+테스티모니알 : 자격증, 수상 내역, 특허
+한 번 더 복붙해서 교육 이력/
+클라이언트 : 관련 사이트
+레쥬메 등록
+포트폴리오 : all, 데이터 분석, 기획, 프로젝트 개발 사이트
+블로그 : 신문 기사
 
 # sidebar
 
@@ -42,19 +55,20 @@ My job is to build your website so that it is functional and user-friendly but a
 What i'm doing
 
 alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+Data Analysis
+Get more value from Various datas with prediction models and machine learning techniques, 
+for example by predicting behavior or targeting the right customer.
 
 alt = Web development icon
-Web development
+Data Science
 High-quality development of sites at the professional level.
 
 alt = mobile app icon
-Mobile apps
+Data Engineering
 Professional development of applications for iOS and Android.
 
 alt = camera icon
-Photography
+IT Planner with UI/UX design
 I make high-quality photos of any category at a professional level.
 
 

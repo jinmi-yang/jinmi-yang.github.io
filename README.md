@@ -7,7 +7,7 @@
 [![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
 This is the page of Jinmi Yang's Portfolio.
-Thanks for reading :)
+Thanks for visiting :)
 I hope all of your work will be good, Thank you !  
 
 ## Site
