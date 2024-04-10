@@ -33,12 +33,161 @@
 
   <main>
 
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-jinmi.png" alt="Jinmi Yang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Jinmi Yang">Jinmi Yang</h1>
+
+          <p class="title">Data Scientist / Analyst / Engineer </p></br>
+          <p class="title">UI/UX Designer / IT Planner </p></br>
+          <p class="title">FrontEnd Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down" ></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+        
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:klm960@naver.com" class="contact-link">klm960@naver.com</a>
+              <a href="mailto:jinmi960@gmail.com" class="contact-link">jinmi960@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline" ></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+821026385121" class="contact-link">+82 010-2638-5121</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline" ></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1996-07-20">July 20, 1996</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline" ></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Seoul, South Korea</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/jinmiyang/" class="social-link">
+              <ion-icon name="logo-linkedin" size="large"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="./assets/images/files/jinmiyang_resume.pdf" class="social-link">
+              <ion-icon name="document-outline" size="large"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
 
     <!--
       - #main-content
     -->
 
     <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Newspaper</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
 
 
 
@@ -49,26 +198,592 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">Hello, Visitor</h2>
+          <h2 class="h2 article-title">About me</h2>
         </header>
 
-        <section class="about-text" style="color: #ffffff;">
+        <section class="about-text">
           <p>
-            지금은 웹사이트를 수정하고 있어요. 더 멋진 모습으로 다시 찾아 뵙겠습니다. <br/>
-            그 전까지는 아래 사이트로 접속 부탁드립니다. <br/><br/>
-            For now, I'm modifying my website. I'll come back with a better look!<br/>
-            Until then, please access the site below.<br/><br/><br/>
-            <a href="https://www.notion.so/Workfolio-47ea878e07a24c82b670482a9932d7d3?pvs=4" style="color: #ffffff; text-decoration: none;">
-              <button class="form-btn" style="color: #ffffff; background-color: transparent; border: none; display: inline-block;">
-                포트폴리오 사이트로 이동하기
-              </button>
-            </a>
+            Hello, I am Yang Jinmi, with expertise in Data Science, Data Analysis, Data Engineering, and Project Planning.</br></br>
+            - Proficient in analyzing and predicting diverse data types through appropriate ML/DL modeling techniques.</br>
+            - Skilled in data engineering, backed by experience in constructing Hadoop-based Data Management platforms.</br>
+            - Capable of leading and overseeing projects to successful completion.</br>
+            - Adept at communicating with diverse teams and steering business communications towards desired outcomes.</br>
+            - Equipped with planning capabilities that align with desired business directions.</br>
           </p>
         </section>
-        
-        
-        
 
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Analyzed customer advertising data using ML/DL techniques, co-developed 11 new business models based on previously unidentified user information such as gender, age, marriage interest, presence of children, interests, residence, primary activity location, shopping index, etc., resulting in the filing of 4 technology patents.
+                </br></br>
+                Silo한 데이터를 분석하여 새로운 인사이트와 비즈니스 모델을 발굴하는 데이터 분석 PL을 담당하고 있습니다. OCR, NLP, ChatGPT 등 AI모델을 비즈니스를 위해 구현하고 최적화하는 역량 또한 보유하고 있습니다.
+                </p>
+              </div>
+
+            </li>
+
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IT Planner/PO</h4>
+
+                <p class="service-item-text">
+                  As the Product Owner of the big data analysis platform, led the planning initiative, designed user-friendly UI/UX, and conducted precise service planning incorporating user requirements and competitive edge. Studied frontend languages and facilitated web development communications, successfully launching the big data analysis platform web service within two months, increasing operational profit by eliminating 10% service fees.
+                </br></br>
+                데이터 분석 플랫폼의 프로젝트 리딩을 맡으며, 서비스의 첫 기획부터 비즈니스 구현까지 모든 과정을 함께하고, IT기획을 전담, 사내 PM, PO를 맡고 있습니다.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineer</h4>
+
+                <p class="service-item-text">
+                  Unified and standardized data from 6 separate teams, establishing a data governance system, and constructed a Hadoop-based big data analysis platform, reducing data retrieval and verification time by approximately 98%.                </br></br>
+                하둡 기반의 데이터 분석 플랫폼을 함께 구축하며, 여러 플랫폼의 데이터 통합, ODS,DW,DM 설계 및 구축, 중간 RDBMS DB 기획 등 진행하였습니다.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg " alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Planned and developed user-friendly websites, studying HTML, JS, and CSS for hands-on experience. Evaluated the usability and user feedback by creating 5-6 web pages from conception to full development.
+                </br></br>
+                사용성이 좋은 웹을 기획하고, 실제로 만들어 사용성과 사용자 반응을 비교해보기 위해, HTML, JS, CSS 등을 공부하고, 약 5~6개의 웹페이지를 기획부터 직접 전부 개발한 경험이 있습니다.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Awards</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/school-outline.svg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>특허</h4>
+
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2023.06.01</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    광고 매체 추천 방법 및 광고 매체 추천 장치</br>
+                    특허 10-2023-0070914/대한민국/2023.06.01</br>
+                    광고주 또는 DSP에 효율적으로 새로운 광고 매체를 추천 할 수 있는 방법에 대한 특허이며,
+                    기존 집행한 광고 매체와 신규 광고 매체를 임베딩 벡터를 기반으로 비교하여, 기존 광고 매체와 유사한 신규 광고 매체를 추천하는 AI 모델링 및 방법론을 제시하였다.
+                    이에 대한 개발은 KT융합기술연구원과 함께 협력하며 AI기술 개발을 진행하며 나온 방법론을 통해 특허를 진행하였다.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/school-outline.svg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>특허</h4>
+
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2023.05.31</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    광고매체 선정 방법 및 그 장치</br>
+                    특허 10-2023-0070256/대한민국/2023.05.31</br>
+                    광고 거래 중 빅데이터 분석으로 Fraud 트래픽 매체 선별 및 적절한 광고 매체 선정 방법에 대한 특허이며,
+                    디지털 광고 거래 시 발생하는 빅데이터를 활용해 모델링 분석 후, 적합 및 불량지수를 계산하여 점수 및 등급 분류 방법을 제시하였고, 그에 따른 최적화 매체 선정과 부정 트래픽 매체를 탐지 할 수 있는 방법을 제시하였다.
+                    이에 대한 개발은 KT융합기술연구원과 함께 협력하며 AI기술 개발을 진행하며 나온 방법론을 통해 특허를 진행하였다.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/school-outline.svg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>특허</h4>
+
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2022.03.15</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    개선된 프로그래매틱 광고 거래 방법, 장치, 시스템 및 컴퓨터 프로그램</br>
+                    특허 10-2023-0034178/대한민국/2023.03.15</br>
+                    광고 거래를 최적화 할 수 있는, 알고리즘 기법 제안에 대한 특허이며,
+                    현재 재직중인 기업의 주요 비즈니스인 광고 거래 Open RTB Bidding를, 어떻게 최적화 하면 좋을 지 고민하여, Fuzzy 알고리즘 제안, 기존의 광고 거래 방법 및 시스템보다 최적화 할 수 있는 알고리즘 모델링을 제시하였고,
+                    이에 대한 개발은 KT융합기술연구원과 함께 협력하며 AI기술 개발을 진행하며 나온 방법론을 통해 특허를 진행하였다.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/school-outline.svg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>특허</h4>
+
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2022.09.14</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    광고 타겟 오디언스 확장 방법 및 그 장치</br>
+                    특허 10-2022-0115622/대한민국/2022.09.14</br>
+                    광고 집행 중 오디언스 타겟팅을 위한 모수 확장에 대한 AI 접목 기술 방법론에 대한 특허. 
+                    Real Time Bidding인 모바일 광고에 대한 오디언스 타겟팅, 그를 용이하게 연결 시킬 수 있는 오디언스
+                    모수 확장 방법에 대한 방법론을 머신러닝과 딥러닝을 접목하여 방법론을 제시하였고,
+                    이에 대한 개발은 KT융합기술연구원과 함께 협력하며 AI기술 개발을 진행하며 나온 방법론을 통해 특허를
+                    진행.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ribbon-outline.svg" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>ADsP</h4>
+
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2023.03.24</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    한국데이터산업진흥원장 </br>
+                    ADsP(데이터분석준전문가)
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ribbon-outline.svg" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AICE Associate</h4>
+
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2022.11.12</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    (주)케이티, (주)한국경제신문 </br>
+                    인공지능 기술 역량 자격 시험 AICE Associate
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/trophy-outline.svg" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AI Bigdata 아카데미 팀프로젝트 장려상</h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2021.07.16</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    포항공과대학교, 포스코인재창조원</br>
+                    포스코 AI Bigdata 아카데미 Bigdata 분석 프로젝트와 AI 프로젝트 통합 장려상 수상</p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/trophy-outline.svg" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>데이터 분석 경진대회 최우수상</h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2021.06.16</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    교내</br>
+                    배달 사이트의 빅데이터를 그 지역의 부동산 데이터와 함께 분석하여,
+                    신규 창업자들에게 업종과 창업 위치를 추천하였고, 그 결과 최우수상을 수상함. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/trophy-outline.svg" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>캡스톤 경진대회 장려상</h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2021.06.16</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    교내</br>
+                    서울시 빅데이터를 기반으로 그 지역의 기존 상가들과 매출액을 분석하는 사이트 개발 프로젝트를 진행, 장려상을 수상함.  
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+<!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Education & Activity</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/people-circle-outline.svg" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>A:Dvancer</h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2022.05 ~</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    포항공대에서 같이 공부했던 친구들과 비영리 법인 개설 목표로,세미나,프로젝트,스터디,ML/DL교육 봉사 등 함께 진행하고 있으며,그 연장선에서 최근에는 직장인 셋이서 기획부터 개발까지 카카오톡 대화 내용을 분석하는 NLP모델과 웹 개발 프레임워크 학습,비즈니스 모델 구축 목표로 카카오톡 대화 내용 분석 사이트 개발. 프론트엔드, UI/UX 설계, 기획, 데이터 분석 업무를 맡으며 스낵서비스로 일주일마다 사이트를 계속 개발하며 부족한 부분 피드백 받으며 역량을 쌓는 등 끊임없이 공부. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/library-outline.svg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>현대 모빌리티 클래스 자율주행 part</h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2022.01 ~ 2022.04</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    현대자동차, 현대엔지비 </br>
+                    퇴근 이후에도 지속적으로 AI모델링에 관해 공부하기 위해, 신청하여 선정되어 수강중인 수업으로, 자율주행을 위한 AI모델링, 딥러닝에 관해 공부하고, 그와 관련된 통신과 네트워크 설정, 하드웨어 시스템에 대해서 심도있게 공부하며 이해도를 높임 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/library-outline.svg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>포스코 AI Bigdata 아카데미</h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2021.04 ~ 2021.07</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    포항공과대학교, 포스코 인재창조원</br>
+                    포항공대에서 포항공대 교수님께 직접 AI와 Bigdata에 해 가르침을 받으며, 포스코 실무진분들께 직접 매일매일 애자일 방식으로 빅데이터 분석 프로젝트를 피드백 받으며 팀 프로젝트 진행.
+                    과정 중에서 받은 카드사 빅데이터, 통신사 빅데이터, 유통업체 빅데이터 등 (포트폴리오 참조) 직접 정제하고 분석하여, 자사에 새로운 방향을 제사하는 프로젝트를 진행
+                    또한 AI 기술을 공부하며, 자연어 처리, 컴퓨터 비젼, 인공지능 등 많은 기술을 공부하고, 직접 실습.
+                    AI 프로젝트로 메타버스를 접목한 GAN 모델을 이용하여 사람 얼굴을 디즈니화 시키고, 2D의 특징을 추출하여 3D로 만드는 모델을 사용하여 3D화, Openpose, 3D-pose-baseline, FCRN 모델을 이용하여 사람이 행동하는 포즈를 캐릭터에게 적용시켜 게임을 즐길 수 있는 프로젝트를 진행
+                    이를 바탕으로 마지막엔 팀프로젝트 장려상을 수상하였으며, 매너상과 팀내 다시 함께 일하고 싶은 사람으로 뽑히기도 하였으며, 우수한 성적으로 포항공과대학교 인공지능연구원에 연구 인턴으로 선정되어 새로운 프로젝트 연구까지로도 이어짐. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/library-outline.svg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Data Science 빅데이터 분석 과정 </h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2021.03 ~ 2021.05</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    KMR, 관악구</br>
+                    빅데이터 분석에서 유명한 강사님께 실제 현업자 분들과 함께 분석하는 방법에 대해 수업을 듣고, 함께 팀 프로젝트 진행. 서울시 공공 데이터를 통해, 범죄율 빅데이터, 유동인구 빅데이터, 여성안심 귀갓길 데이터를 함께 분석하여, 새로운 여성 안심 귀갓길을 제시하는 팀 프로젝트 진행.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/earth-outline.svg" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>한국장애인부모회 영국 돌봄법 번역 봉사</h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2020.02 ~ 2020.02</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    한국장애인부모회</br>
+                    한국 장애인 부모회에서 국내 입법을 시도하기 위해, 영국 돌봄법을 번역하는 자원봉사자를 구인하고 있어, 바쁜 스케줄에도 중요한 일에 힘이 될 수 있다는 생각에 영국 돌봄법을 번역하는 봉사활동을 진행. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/earth-outline.svg" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>원주 세계 댄싱 카니발 영어 통역 봉사</h4>
+                <h4 class="h4 testimonials-item-time" data-testimonials-title>2018.09 ~ 2018.09</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    원주시</br>
+                    국내 10위내 축제 중 하나인 원주 세계 댄싱 다이내믹 카니발 축제에서, 9박 10일동안 하루종일 해외 팀 한 팀을 마크하여 통솔하며 통번역하는 봉사활동을 진행
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Self-Created Sites</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="kakaotalk_text_test">
+              <a href="https://www.advancer-katalk.click/">
+                <img src="./assets/images/kta-title.png" width=230 height=60 alt="kakaotalk_text_test">
+              </a>
+            </li>
+
+            <li class="reborn_rich_test">
+              <a href="https://advancer-rrs.click/">
+                <img src="./assets/images/rrs-title2.png" width=230 height=60 alt="reborn_rich_test">
+              </a>
+            </li>
+
+            <li class="new_year_rabbit_test">
+              <a href="https://newyearrabbit.click/">
+                <img src="./assets/images/nyr-title.png" width=230 height=60 alt="new_year_rabbit_test">
+              </a>
+            </li>
+
+            <li class="mz_office_test">
+              <a href="https://mzofficetest.click/">
+                <img src="./assets/images/mz_final3.png" width=230 height=60 alt="mz_office_test">
+              </a>
+            </li>
+
+            <li class="gpt_test">
+              <a href="https://previouslife.click/">
+                <img src="./assets/images/gpt_test.png" width=230 height=60 alt="gpt_test">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
